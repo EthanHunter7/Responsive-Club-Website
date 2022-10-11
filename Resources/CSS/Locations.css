@@ -1,0 +1,252 @@
+html{
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #5e5e5e;
+    color: #e6e6e6
+}
+
+/*Header Styling*/
+header{
+    background-color: #A80000;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    height: auto;
+}
+
+ header h1{
+    padding: 10px 0;
+    font-size: 2rem;
+    color: #e6e6e6;
+    font-family: "Nunito";
+}
+
+/*Title Styling*/
+.title{
+    text-align: center;
+    margin: 2rem 0rem;
+    line-height: 1.5;
+}
+
+.title h2{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Nunito";
+}
+
+.title h4{
+    font-size: 1.5rem;
+}
+
+/*Locations Styling*/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img{
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #A80000;
+}
+
+.content h3{
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0.8rem 0 0 2rem;
+}
+
+.valley{
+   display: flex;
+   width: 975px;
+   height: 454px;
+   background-color: #A80000;
+   border-radius: 10px;
+   margin-bottom: 10px;
+}
+
+.friction{
+    display: flex;
+    width: 975px;
+    height: 454px;
+    background-color: #A80000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+ }
+
+
+.the-pool{
+    display: flex;
+    width: 975px;
+    height: 454px;
+    background-color: #A80000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.info{
+    display: grid;
+    grid-template-columns: 5em 18em;
+    width: 400px;
+    line-height: 1.5;
+    padding-left: 10px;
+}
+
+
+.info h5{
+    font-family: "Nunito";
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.info p, a, li{
+    margin: 0 0 10px 5px;
+}
+
+.info a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.info a:hover{
+    color: #5e5e5e;
+}
+
+@media only screen and (max-width: 1000px){
+    .content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .content img{
+        width: 650px;
+        height: 450px;
+    }
+    
+    .valley{
+        display: flex;
+        flex-wrap: wrap;
+        width: 655px;
+        height: auto;
+     }
+     
+     .friction{
+         display: flex;
+         flex-wrap: wrap;
+         width: 655px;
+         height: auto;
+      }
+     
+     
+     .the-pool{
+         display: flex;
+         flex-wrap: wrap;
+         width: 655px;
+         height: auto;
+     }
+
+     .info{
+        width: 600px;
+    }
+     
+
+}
+
+@media only screen and (max-width: 670px){
+    .content img{
+        width: 500px;
+        height: 450px;
+    }
+    
+    .valley{
+        display: flex;
+        flex-wrap: wrap;
+        width: 505px;
+        height: auto;
+     }
+     
+     .friction{
+         display: flex;
+         flex-wrap: wrap;
+         width: 505px;
+         height: auto;
+      }
+     
+     
+     .the-pool{
+         display: flex;
+         flex-wrap: wrap;
+         width: 505px;
+         height: auto;
+     }
+
+     .info{
+        width: 450px;
+        grid-template-columns: 5em 18em;
+    }
+     
+}
+
+@media only screen and (max-width: 520px){
+    .content img{
+        width: 350px;
+        height: 250px;
+    }
+    
+    .valley{
+        display: flex;
+        flex-wrap: wrap;
+        width: 355px;
+        height: auto;
+     }
+     
+     .friction{
+         display: flex;
+         flex-wrap: wrap;
+         width: 355px;
+         height: auto;
+      }
+     
+     
+     .the-pool{
+         display: flex;
+         flex-wrap: wrap;
+         width: 355px;
+         height: auto;
+     }
+
+     .info{ 
+        width: 300px;
+        grid-template-columns: 5em 14em;
+    }
+}
+
+/*Footer Styling*/
+.footer{
+    background-color: #A80000;
+    height: 35px;
+    display: flex;
+}
+
+.footer a {
+    font-size: 1.09rem;
+    color: #fff;
+    margin: 0.5rem 1rem 0rem 1rem;
+    text-decoration: underline
+}
