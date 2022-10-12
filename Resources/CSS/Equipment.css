@@ -1,0 +1,261 @@
+html{
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #5e5e5e;
+    color: #e6e6e6
+}
+
+/*Header Styling*/
+header{
+    background-color: #A80000;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    height: auto;
+}
+
+ header h1{
+    padding: 10px 0;
+    font-size: 2rem;
+    color: #e6e6e6;
+    font-family: "Nunito";
+}
+
+/*Title Styling*/
+.title{
+    text-align: center;
+    margin: 2rem 0rem;
+    line-height: 1.5;
+}
+
+.title h2{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Nunito";
+}
+
+.title h4{
+    font-size: 1.5rem;
+}
+
+/*Equipment Styling*/
+img{
+    background-color: #fff;
+    width: 375px;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1320px){
+    img{
+        width: 300px;
+        height: 350px;
+    }
+}
+
+/*Required Section Sytling*/
+.required-section{
+    background-color: #A80000;
+}
+
+.required-title{
+    text-align: center;
+    padding: 1rem 0 0 0;
+    line-height: 1.8;
+}
+
+.required-title h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Nunito";
+}
+
+.required-title h5{
+    font-size: 1.3rem;
+}
+
+.required-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.required-picture{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 4rem 1rem 0;
+    font-family: "Nunito";
+}
+
+.required-picture img{
+    border: 2px solid #000;
+    margin-top: 4px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction:row ;
+}
+
+.required-info{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-top: 6.5rem;
+}
+
+.required-info p{
+    margin-right: 5rem;
+}
+
+
+.top-brands{
+    margin-top: 6.5rem;
+    line-height: 1.3;
+}
+
+.top-brands h5{
+    font-size: 1.3rem;
+}
+
+.top-brands ol, a{
+    text-align: center;
+    list-style: none;
+    color: #e6e6e6;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1210px){
+    .required-section{
+        background-color: #A80000;
+    }
+     
+    .required-picture{
+        margin: 0.7rem 4rem 1rem 0;
+    }
+
+    .info-container{
+        flex-direction: column;
+    }
+    
+    .required-info{
+        flex-direction: column;
+        width: 500px;
+        line-height: 1.5;
+        margin-top: 2rem;
+    }
+    
+    .required-info p{
+        margin: 0rem 0 1.3rem 0;
+    }
+    
+    
+    .top-brands{ 
+        margin: 1rem 0;
+    }
+    
+}
+
+@media only screen and (max-width:900px) {
+        .required-content{
+            flex-direction: column;
+        }
+        .required-picture{
+            align-items: center;
+            justify-content: center;
+            margin: 0.7rem 0rem 1rem 0;
+        }
+
+        .info-container{
+            align-items: center;
+        }
+}
+
+@media only screen and (max-width: 500px){
+    .required-info{
+        width: 350px;
+    }
+}
+
+/*Not Required Section Sytling*/
+.not-required-title{
+    text-align: center;
+    padding: 1rem 0 0 0;
+    line-height: 1.8;
+}
+
+.not-required-title h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Nunito";
+}
+
+.not-required-title h5{
+    font-size: 1.3rem;
+}
+
+.not-required-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.not-required-content .chalk, .bag, .brush{
+    width: 500px;
+    height: 625px;
+    margin: 1.5rem 1rem 0;
+}
+
+.not-required-content h4{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Nunito";
+}
+
+.not-required-content img{
+    margin-bottom: 0.8rem;
+    border: 2px solid #000;
+}
+
+.not-required-content p{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:1320px) {
+    .not-required-content{
+        flex-wrap: wrap;
+    }
+
+    .not-required-content p{
+        font-size: 1.4rem;
+    }    
+}
+
+@media only screen and (max-width:400px){
+    .not-required-content .chalk, .bag, .brush{
+        height: 675px;
+    }
+}
+/*Footer Styling*/
+.footer{
+    background-color: #A80000;
+    height: 35px;
+    display: flex;
+}
+
+.footer a {
+    font-size: 1.09rem;
+    color: #fff;
+    margin: 0.5rem 1rem 0rem 1rem;
+    text-decoration: underline
+}
