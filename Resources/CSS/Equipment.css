@@ -133,6 +133,10 @@ img{
     font-size: 1.2rem;
 }
 
+.top-brands a:hover{
+    color: #5e5e5e;
+}
+
 @media only screen and (max-width: 1210px){
     .required-section{
         background-color: #A80000;
